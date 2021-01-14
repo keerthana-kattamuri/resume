@@ -1,0 +1,83 @@
+  body {
+    background: #80808036;
+    margin: 0px;
+  }
+  img {
+    width: 100px;
+    height: auto;
+    margin: 4px;
+    padding: 20px;
+    padding-bottom: 5px;
+  }
+  .left {
+    margin: 2px;
+    width: 30%;
+    background: #000000a1;
+    color: white;
+    padding: 10px;
+  }
+  .details h4 {
+    margin: 1px;
+  }
+  .details {
+    margin: 1px;
+    text-align: center;
+  }
+  .tech,
+  .hobby,
+  .edu,
+  .obj,
+  .project,
+  .cer {
+    margin: 2px;
+  }
+  .tech h2,
+  .hobby h2 {
+    text-align: center;
+  }
+  .edu,
+  .obj,
+  .cer,
+  .project {
+    background: white;
+    padding: 5px 20px 10px 20px;
+  }
+  .left h2 {
+    color: #1ed2db;
+  }
+  ul,
+  ol {
+    margin-left: 25px;
+    margin-bottom:8px;
+  }
+  li {
+    padding: 3px;
+  }
+  .right {
+    width: 70%;
+  }
+  .edu table {
+    margin: 0 auto;
+    text-align: center;
+    /* margin-bottom: 5px; */
+    border-collapse: collapse;
+  }
+  .all {
+    display: flex;
+    margin: 5px;
+  }
+  .right h2 {
+    color: #3f92ba;
+    margin: 13px;
+  }
+  @media screen and (max-width: 767px) {
+    .all {
+      flex-direction: column;
+    }
+    .left,
+    .right {
+      width: 100%;
+      padding: 0;
+    }
+  }
+  
